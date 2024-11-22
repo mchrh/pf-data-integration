@@ -1,0 +1,37 @@
+2024-11-22 12:07:03,562 - WaterQualityProcessor - ERROR - Error loading static data: [PATH_NOT_FOUND] Path does not exist: file:/user/water_quality/site_information.
+2024-11-22 12:07:03,564 - WaterQualityProcessor - ERROR - Main execution error: [PATH_NOT_FOUND] Path does not exist: file:/user/water_quality/site_information.
+2024-11-22 12:07:03,564 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-22 12:10:01,176 - WaterQualityProcessor - ERROR - Error loading static data: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+2024-11-22 12:10:01,179 - WaterQualityProcessor - ERROR - Main execution error: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+2024-11-22 12:10:01,180 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-22 12:13:14,438 - WaterQualityProcessor - INFO - Successfully loaded static data
+2024-11-22 12:13:14,438 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-22 12:13:14,438 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2024-11-21 12:13:14.438713 to 2024-11-22 12:13:14.438713
+2024-11-22 12:13:14,549 - WaterQualityProcessor - ERROR - Error during reprocessing: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+2024-11-22 12:13:14,550 - WaterQualityProcessor - ERROR - Main execution error: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+2024-11-22 12:13:14,551 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-22 12:14:48,631 - WaterQualityProcessor - INFO - Loading site information from /Users/work/Documents/pf-data-integration/data/processed/site_information
+2024-11-22 12:14:50,735 - WaterQualityProcessor - INFO - Loaded site information with 175 records
+2024-11-22 12:14:50,736 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-22 12:14:50,869 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-22 12:14:50,869 - WaterQualityProcessor - INFO - 
+Sample of site information:
+2024-11-22 12:14:51,785 - WaterQualityProcessor - INFO - 
+Sample of methods:
+2024-11-22 12:14:51,851 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-22 12:14:51,851 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-22 12:14:51,857 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-22 12:14:51,857 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2024-11-21 12:14:51.851783 to 2024-11-22 12:14:51.851783
+2024-11-22 12:14:51,964 - WaterQualityProcessor - ERROR - Error during reprocessing: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+2024-11-22 12:14:51,965 - WaterQualityProcessor - ERROR - Main execution error: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+2024-11-22 12:14:51,965 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-22 12:16:40,768 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-22 12:16:43,271 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-22 12:16:43,271 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-22 12:16:43,271 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-22 12:16:43,271 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-22 12:16:43,271 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2024-11-21 12:16:43.271494 to 2024-11-22 12:16:43.271494
+2024-11-22 12:16:43,341 - WaterQualityProcessor - WARNING - Raw data path exists but contains no data.
+2024-11-22 12:16:43,341 - WaterQualityProcessor - ERROR - No raw data available for processing
+2024-11-22 12:16:43,341 - WaterQualityProcessor - WARNING - No data was processed.
+2024-11-22 12:16:43,341 - py4j.clientserver - INFO - Closing down clientserver connection

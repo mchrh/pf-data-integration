@@ -1,0 +1,53 @@
+2024-11-22 11:51:38,900 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-22 11:51:38,900 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2024-11-22 11:51:38,901 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-22 11:51:38,901 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-22 11:51:38,942 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-22 11:51:38,942 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-22 11:51:38,942 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-22 11:51:38,992 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-22 11:51:38,992 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-22 11:51:38,992 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-22 11:51:38,992 - WaterQualityProducer - ERROR - Main execution error: NoBrokersAvailable
+2024-11-22 12:05:09,226 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-22 12:05:09,227 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2024-11-22 12:05:09,227 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-22 12:05:09,340 - kafka.conn - INFO - Broker version identified as 2.5.0
+2024-11-22 12:05:09,340 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-11-22 12:05:09,342 - WaterQualityProducer - INFO - Initialized producer for topic: water_quality
+2024-11-22 12:05:09,342 - WaterQualityProducer - INFO - Loading data from ../data/raw/LTM Data Aug 1 2022.xlsx
+2024-11-22 12:05:09,343 - WaterQualityProducer - ERROR - Error loading data: [Errno 2] No such file or directory: '../data/raw/LTM Data Aug 1 2022.xlsx'
+2024-11-22 12:05:09,343 - WaterQualityProducer - ERROR - Streaming error: [Errno 2] No such file or directory: '../data/raw/LTM Data Aug 1 2022.xlsx'
+2024-11-22 12:05:09,343 - kafka.producer.kafka - INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+2024-11-22 12:05:09,343 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-11-22 12:05:09,344 - WaterQualityProducer - ERROR - Main execution error: [Errno 2] No such file or directory: '../data/raw/LTM Data Aug 1 2022.xlsx'
+2024-11-22 12:05:34,489 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-22 12:05:34,490 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2024-11-22 12:05:34,496 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-22 12:05:34,607 - kafka.conn - INFO - Broker version identified as 2.5.0
+2024-11-22 12:05:34,607 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-11-22 12:05:34,608 - WaterQualityProducer - INFO - Initialized producer for topic: water_quality
+2024-11-22 12:05:34,608 - WaterQualityProducer - INFO - Loading data from ../data/raw/LTM Data Aug 1 2022.xlsx
+2024-11-22 12:05:34,609 - WaterQualityProducer - ERROR - Error loading data: [Errno 2] No such file or directory: '../data/raw/LTM Data Aug 1 2022.xlsx'
+2024-11-22 12:05:34,609 - WaterQualityProducer - ERROR - Streaming error: [Errno 2] No such file or directory: '../data/raw/LTM Data Aug 1 2022.xlsx'
+2024-11-22 12:05:34,609 - kafka.producer.kafka - INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+2024-11-22 12:05:34,611 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-11-22 12:05:34,611 - WaterQualityProducer - ERROR - Main execution error: [Errno 2] No such file or directory: '../data/raw/LTM Data Aug 1 2022.xlsx'
+2024-11-22 12:06:11,787 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-22 12:06:11,788 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2024-11-22 12:06:11,792 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-22 12:06:11,899 - kafka.conn - INFO - Broker version identified as 2.5.0
+2024-11-22 12:06:11,899 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-11-22 12:06:11,900 - WaterQualityProducer - INFO - Initialized producer for topic: water_quality
+2024-11-22 12:06:11,900 - WaterQualityProducer - INFO - Loading data from data/raw/LTM Data Aug 1 2022.xlsx
+2024-11-22 12:06:17,238 - WaterQualityProducer - INFO - Successfully loaded 38200 records
+2024-11-22 12:06:17,415 - WaterQualityProducer - INFO - Starting to stream 38200 records in batches of 10
+2024-11-22 12:06:17,418 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-22 12:06:17,418 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-22 12:06:17,418 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-11-22 12:06:17,442 - WaterQualityProducer - INFO - Sent batch 1/3820 to partition 0 at offset 0
+2024-11-22 12:06:27,459 - WaterQualityProducer - INFO - Sent batch 2/3820 to partition 0 at offset 1
+2024-11-22 12:06:37,468 - WaterQualityProducer - INFO - Sent batch 3/3820 to partition 0 at offset 2
+2024-11-22 12:06:39,264 - WaterQualityProducer - INFO - Streaming interrupted by user
+2024-11-22 12:06:39,264 - kafka.producer.kafka - INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+2024-11-22 12:06:39,265 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
