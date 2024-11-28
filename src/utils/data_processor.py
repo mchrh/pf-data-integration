@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 import sys
 from pathlib import Path
 import os
+print(os.getcwd())
 
 sys.path.append(str(Path(__file__).parent.parent))
 from config.config import *
@@ -160,7 +161,7 @@ def main():
         processor = DataReprocessor()
         
         end_time = datetime.now()
-        start_time = end_time - timedelta(days=1)
+        start_time = end_time - timedelta(days=2000)
         
         logger.info("Listing existing versions:")
         processor.list_available_versions()

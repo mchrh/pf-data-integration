@@ -51,3 +51,253 @@
 2024-11-22 12:06:39,264 - WaterQualityProducer - INFO - Streaming interrupted by user
 2024-11-22 12:06:39,264 - kafka.producer.kafka - INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
 2024-11-22 12:06:39,265 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-11-28 08:56:15,576 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 08:56:15,576 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2024-11-28 08:56:15,577 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 08:56:15,689 - kafka.conn - INFO - Broker version identified as 2.5.0
+2024-11-28 08:56:15,689 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-11-28 08:56:15,690 - WaterQualityProducer - INFO - Initialized producer for topic: water_quality
+2024-11-28 08:56:15,691 - WaterQualityProducer - INFO - Loading data from /Users/work/Documents/pf-data-integration/data/raw/LTM Data Aug 1 2022.xlsx
+2024-11-28 08:56:21,196 - WaterQualityProducer - INFO - Successfully loaded 38200 records
+2024-11-28 08:56:21,372 - WaterQualityProducer - INFO - Starting to stream 38200 records in batches of 10
+2024-11-28 08:56:21,424 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 08:56:21,424 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 08:56:21,425 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-11-28 08:56:21,575 - WaterQualityProducer - INFO - Sent batch 1/3820 to partition 0 at offset 0
+2024-11-28 08:56:31,600 - WaterQualityProducer - INFO - Sent batch 2/3820 to partition 0 at offset 1
+2024-11-28 08:56:41,610 - WaterQualityProducer - INFO - Sent batch 3/3820 to partition 0 at offset 2
+2024-11-28 08:56:51,626 - WaterQualityProducer - INFO - Sent batch 4/3820 to partition 0 at offset 3
+2024-11-28 08:57:01,638 - WaterQualityProducer - INFO - Sent batch 5/3820 to partition 0 at offset 4
+2024-11-28 08:57:11,655 - WaterQualityProducer - INFO - Sent batch 6/3820 to partition 0 at offset 5
+2024-11-28 08:57:21,663 - WaterQualityProducer - INFO - Sent batch 7/3820 to partition 0 at offset 6
+2024-11-28 08:57:31,680 - WaterQualityProducer - INFO - Sent batch 8/3820 to partition 0 at offset 7
+2024-11-28 08:57:41,689 - WaterQualityProducer - INFO - Sent batch 9/3820 to partition 0 at offset 8
+2024-11-28 08:57:51,702 - WaterQualityProducer - INFO - Sent batch 10/3820 to partition 0 at offset 9
+2024-11-28 08:58:01,720 - WaterQualityProducer - INFO - Sent batch 11/3820 to partition 0 at offset 10
+2024-11-28 08:58:11,737 - WaterQualityProducer - INFO - Sent batch 12/3820 to partition 0 at offset 11
+2024-11-28 08:58:21,751 - WaterQualityProducer - INFO - Sent batch 13/3820 to partition 0 at offset 12
+2024-11-28 08:58:31,762 - WaterQualityProducer - INFO - Sent batch 14/3820 to partition 0 at offset 13
+2024-11-28 08:58:41,797 - WaterQualityProducer - INFO - Sent batch 15/3820 to partition 0 at offset 14
+2024-11-28 08:58:51,809 - WaterQualityProducer - INFO - Sent batch 16/3820 to partition 0 at offset 15
+2024-11-28 08:59:01,842 - WaterQualityProducer - INFO - Sent batch 17/3820 to partition 0 at offset 16
+2024-11-28 08:59:11,854 - WaterQualityProducer - INFO - Sent batch 18/3820 to partition 0 at offset 17
+2024-11-28 08:59:21,870 - WaterQualityProducer - INFO - Sent batch 19/3820 to partition 0 at offset 18
+2024-11-28 08:59:31,887 - WaterQualityProducer - INFO - Sent batch 20/3820 to partition 0 at offset 19
+2024-11-28 08:59:41,903 - WaterQualityProducer - INFO - Sent batch 21/3820 to partition 0 at offset 20
+2024-11-28 08:59:51,914 - WaterQualityProducer - INFO - Sent batch 22/3820 to partition 0 at offset 21
+2024-11-28 09:00:01,937 - WaterQualityProducer - INFO - Sent batch 23/3820 to partition 0 at offset 22
+2024-11-28 09:00:11,953 - WaterQualityProducer - INFO - Sent batch 24/3820 to partition 0 at offset 23
+2024-11-28 09:00:21,966 - WaterQualityProducer - INFO - Sent batch 25/3820 to partition 0 at offset 24
+2024-11-28 09:00:31,980 - WaterQualityProducer - INFO - Sent batch 26/3820 to partition 0 at offset 25
+2024-11-28 09:00:41,994 - WaterQualityProducer - INFO - Sent batch 27/3820 to partition 0 at offset 26
+2024-11-28 09:00:52,011 - WaterQualityProducer - INFO - Sent batch 28/3820 to partition 0 at offset 27
+2024-11-28 09:00:52,224 - WaterQualityProducer - INFO - Streaming interrupted by user
+2024-11-28 09:00:52,224 - kafka.producer.kafka - INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+2024-11-28 09:00:52,225 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-11-28 09:17:41,471 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:17:41,471 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2024-11-28 09:17:41,472 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:17:41,586 - kafka.conn - INFO - Broker version identified as 2.5.0
+2024-11-28 09:17:41,586 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-11-28 09:17:41,587 - WaterQualityProducer - INFO - Initialized producer for topic: water_quality
+2024-11-28 09:17:41,587 - WaterQualityProducer - INFO - Loading data from /Users/work/Documents/pf-data-integration/data/raw/LTM Data Aug 1 2022.xlsx
+2024-11-28 09:17:47,079 - WaterQualityProducer - INFO - Successfully loaded 38200 records
+2024-11-28 09:17:47,248 - WaterQualityProducer - INFO - Starting to stream 38200 records in batches of 10
+2024-11-28 09:17:47,300 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:17:47,301 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:17:47,301 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-11-28 09:17:47,449 - WaterQualityProducer - INFO - Sent batch 1/3820 to partition 0 at offset 0
+2024-11-28 09:17:57,465 - WaterQualityProducer - INFO - Sent batch 2/3820 to partition 0 at offset 1
+2024-11-28 09:18:07,481 - WaterQualityProducer - INFO - Sent batch 3/3820 to partition 0 at offset 2
+2024-11-28 09:18:17,495 - WaterQualityProducer - INFO - Sent batch 4/3820 to partition 0 at offset 3
+2024-11-28 09:18:27,506 - WaterQualityProducer - INFO - Sent batch 5/3820 to partition 0 at offset 4
+2024-11-28 09:18:37,521 - WaterQualityProducer - INFO - Sent batch 6/3820 to partition 0 at offset 5
+2024-11-28 09:18:47,541 - WaterQualityProducer - INFO - Sent batch 7/3820 to partition 0 at offset 6
+2024-11-28 09:18:57,558 - WaterQualityProducer - INFO - Sent batch 8/3820 to partition 0 at offset 7
+2024-11-28 09:19:07,572 - WaterQualityProducer - INFO - Sent batch 9/3820 to partition 0 at offset 8
+2024-11-28 09:19:17,587 - WaterQualityProducer - INFO - Sent batch 10/3820 to partition 0 at offset 9
+2024-11-28 09:19:27,602 - WaterQualityProducer - INFO - Sent batch 11/3820 to partition 0 at offset 10
+2024-11-28 09:19:37,615 - WaterQualityProducer - INFO - Sent batch 12/3820 to partition 0 at offset 11
+2024-11-28 09:19:47,643 - WaterQualityProducer - INFO - Sent batch 13/3820 to partition 0 at offset 12
+2024-11-28 09:19:57,663 - WaterQualityProducer - INFO - Sent batch 14/3820 to partition 0 at offset 13
+2024-11-28 09:20:07,677 - WaterQualityProducer - INFO - Sent batch 15/3820 to partition 0 at offset 14
+2024-11-28 09:20:17,697 - WaterQualityProducer - INFO - Sent batch 16/3820 to partition 0 at offset 15
+2024-11-28 09:20:27,713 - WaterQualityProducer - INFO - Sent batch 17/3820 to partition 0 at offset 16
+2024-11-28 09:20:37,723 - WaterQualityProducer - INFO - Sent batch 18/3820 to partition 0 at offset 17
+2024-11-28 09:20:47,740 - WaterQualityProducer - INFO - Sent batch 19/3820 to partition 0 at offset 18
+2024-11-28 09:20:57,753 - WaterQualityProducer - INFO - Sent batch 20/3820 to partition 0 at offset 19
+2024-11-28 09:21:07,776 - WaterQualityProducer - INFO - Sent batch 21/3820 to partition 0 at offset 20
+2024-11-28 09:21:17,786 - WaterQualityProducer - INFO - Sent batch 22/3820 to partition 0 at offset 21
+2024-11-28 09:21:27,800 - WaterQualityProducer - INFO - Sent batch 23/3820 to partition 0 at offset 22
+2024-11-28 09:21:37,814 - WaterQualityProducer - INFO - Sent batch 24/3820 to partition 0 at offset 23
+2024-11-28 09:21:47,825 - WaterQualityProducer - INFO - Sent batch 25/3820 to partition 0 at offset 24
+2024-11-28 09:21:57,838 - WaterQualityProducer - INFO - Sent batch 26/3820 to partition 0 at offset 25
+2024-11-28 09:22:07,852 - WaterQualityProducer - INFO - Sent batch 27/3820 to partition 0 at offset 26
+2024-11-28 09:22:17,865 - WaterQualityProducer - INFO - Sent batch 28/3820 to partition 0 at offset 27
+2024-11-28 09:22:27,881 - WaterQualityProducer - INFO - Sent batch 29/3820 to partition 0 at offset 28
+2024-11-28 09:22:37,895 - WaterQualityProducer - INFO - Sent batch 30/3820 to partition 0 at offset 29
+2024-11-28 09:22:47,908 - WaterQualityProducer - INFO - Sent batch 31/3820 to partition 0 at offset 30
+2024-11-28 09:22:57,923 - WaterQualityProducer - INFO - Sent batch 32/3820 to partition 0 at offset 31
+2024-11-28 09:23:07,934 - WaterQualityProducer - INFO - Sent batch 33/3820 to partition 0 at offset 32
+2024-11-28 09:23:17,955 - WaterQualityProducer - INFO - Sent batch 34/3820 to partition 0 at offset 33
+2024-11-28 09:23:27,993 - WaterQualityProducer - INFO - Sent batch 35/3820 to partition 0 at offset 34
+2024-11-28 09:23:38,007 - WaterQualityProducer - INFO - Sent batch 36/3820 to partition 0 at offset 35
+2024-11-28 09:23:48,032 - WaterQualityProducer - INFO - Sent batch 37/3820 to partition 0 at offset 36
+2024-11-28 09:23:58,040 - WaterQualityProducer - INFO - Sent batch 38/3820 to partition 0 at offset 37
+2024-11-28 09:24:08,055 - WaterQualityProducer - INFO - Sent batch 39/3820 to partition 0 at offset 38
+2024-11-28 09:24:18,071 - WaterQualityProducer - INFO - Sent batch 40/3820 to partition 0 at offset 39
+2024-11-28 09:24:28,083 - WaterQualityProducer - INFO - Sent batch 41/3820 to partition 0 at offset 40
+2024-11-28 09:24:38,096 - WaterQualityProducer - INFO - Sent batch 42/3820 to partition 0 at offset 41
+2024-11-28 09:24:48,110 - WaterQualityProducer - INFO - Sent batch 43/3820 to partition 0 at offset 42
+2024-11-28 09:24:58,124 - WaterQualityProducer - INFO - Sent batch 44/3820 to partition 0 at offset 43
+2024-11-28 09:25:08,141 - WaterQualityProducer - INFO - Sent batch 45/3820 to partition 0 at offset 44
+2024-11-28 09:25:18,151 - WaterQualityProducer - INFO - Sent batch 46/3820 to partition 0 at offset 45
+2024-11-28 09:25:28,163 - WaterQualityProducer - INFO - Sent batch 47/3820 to partition 0 at offset 46
+2024-11-28 09:25:38,176 - WaterQualityProducer - INFO - Sent batch 48/3820 to partition 0 at offset 47
+2024-11-28 09:25:48,184 - WaterQualityProducer - INFO - Sent batch 49/3820 to partition 0 at offset 48
+2024-11-28 09:25:58,199 - WaterQualityProducer - INFO - Sent batch 50/3820 to partition 0 at offset 49
+2024-11-28 09:26:08,212 - WaterQualityProducer - INFO - Sent batch 51/3820 to partition 0 at offset 50
+2024-11-28 09:26:18,231 - WaterQualityProducer - INFO - Sent batch 52/3820 to partition 0 at offset 51
+2024-11-28 09:26:28,244 - WaterQualityProducer - INFO - Sent batch 53/3820 to partition 0 at offset 52
+2024-11-28 09:26:38,265 - WaterQualityProducer - INFO - Sent batch 54/3820 to partition 0 at offset 53
+2024-11-28 09:26:48,280 - WaterQualityProducer - INFO - Sent batch 55/3820 to partition 0 at offset 54
+2024-11-28 09:26:58,294 - WaterQualityProducer - INFO - Sent batch 56/3820 to partition 0 at offset 55
+2024-11-28 09:27:08,308 - WaterQualityProducer - INFO - Sent batch 57/3820 to partition 0 at offset 56
+2024-11-28 09:27:18,327 - WaterQualityProducer - INFO - Sent batch 58/3820 to partition 0 at offset 57
+2024-11-28 09:27:28,344 - WaterQualityProducer - INFO - Sent batch 59/3820 to partition 0 at offset 58
+2024-11-28 09:27:38,363 - WaterQualityProducer - INFO - Sent batch 60/3820 to partition 0 at offset 59
+2024-11-28 09:27:48,380 - WaterQualityProducer - INFO - Sent batch 61/3820 to partition 0 at offset 60
+2024-11-28 09:27:58,398 - WaterQualityProducer - INFO - Sent batch 62/3820 to partition 0 at offset 61
+2024-11-28 09:28:08,420 - WaterQualityProducer - INFO - Sent batch 63/3820 to partition 0 at offset 62
+2024-11-28 09:28:18,429 - WaterQualityProducer - INFO - Sent batch 64/3820 to partition 0 at offset 63
+2024-11-28 09:28:28,447 - WaterQualityProducer - INFO - Sent batch 65/3820 to partition 0 at offset 64
+2024-11-28 09:28:38,465 - WaterQualityProducer - INFO - Sent batch 66/3820 to partition 0 at offset 65
+2024-11-28 09:28:48,484 - WaterQualityProducer - INFO - Sent batch 67/3820 to partition 0 at offset 66
+2024-11-28 09:28:58,504 - WaterQualityProducer - INFO - Sent batch 68/3820 to partition 0 at offset 67
+2024-11-28 09:29:08,530 - WaterQualityProducer - INFO - Sent batch 69/3820 to partition 0 at offset 68
+2024-11-28 09:29:18,542 - WaterQualityProducer - INFO - Sent batch 70/3820 to partition 0 at offset 69
+2024-11-28 09:29:28,555 - WaterQualityProducer - INFO - Sent batch 71/3820 to partition 0 at offset 70
+2024-11-28 09:29:38,567 - WaterQualityProducer - INFO - Sent batch 72/3820 to partition 0 at offset 71
+2024-11-28 09:29:48,582 - WaterQualityProducer - INFO - Sent batch 73/3820 to partition 0 at offset 72
+2024-11-28 09:29:58,589 - WaterQualityProducer - INFO - Sent batch 74/3820 to partition 0 at offset 73
+2024-11-28 09:30:08,608 - WaterQualityProducer - INFO - Sent batch 75/3820 to partition 0 at offset 74
+2024-11-28 09:30:18,631 - WaterQualityProducer - INFO - Sent batch 76/3820 to partition 0 at offset 75
+2024-11-28 09:30:28,640 - WaterQualityProducer - INFO - Sent batch 77/3820 to partition 0 at offset 76
+2024-11-28 09:30:38,654 - WaterQualityProducer - INFO - Sent batch 78/3820 to partition 0 at offset 77
+2024-11-28 09:30:48,669 - WaterQualityProducer - INFO - Sent batch 79/3820 to partition 0 at offset 78
+2024-11-28 09:30:58,684 - WaterQualityProducer - INFO - Sent batch 80/3820 to partition 0 at offset 79
+2024-11-28 09:31:08,695 - WaterQualityProducer - INFO - Sent batch 81/3820 to partition 0 at offset 80
+2024-11-28 09:31:18,711 - WaterQualityProducer - INFO - Sent batch 82/3820 to partition 0 at offset 81
+2024-11-28 09:31:28,728 - WaterQualityProducer - INFO - Sent batch 83/3820 to partition 0 at offset 82
+2024-11-28 09:31:38,742 - WaterQualityProducer - INFO - Sent batch 84/3820 to partition 0 at offset 83
+2024-11-28 09:31:48,753 - WaterQualityProducer - INFO - Sent batch 85/3820 to partition 0 at offset 84
+2024-11-28 09:31:58,769 - WaterQualityProducer - INFO - Sent batch 86/3820 to partition 0 at offset 85
+2024-11-28 09:32:08,789 - WaterQualityProducer - INFO - Sent batch 87/3820 to partition 0 at offset 86
+2024-11-28 09:32:18,806 - WaterQualityProducer - INFO - Sent batch 88/3820 to partition 0 at offset 87
+2024-11-28 09:32:28,819 - WaterQualityProducer - INFO - Sent batch 89/3820 to partition 0 at offset 88
+2024-11-28 09:32:38,839 - WaterQualityProducer - INFO - Sent batch 90/3820 to partition 0 at offset 89
+2024-11-28 09:32:48,849 - WaterQualityProducer - INFO - Sent batch 91/3820 to partition 0 at offset 90
+2024-11-28 09:32:58,860 - WaterQualityProducer - INFO - Sent batch 92/3820 to partition 0 at offset 91
+2024-11-28 09:33:08,871 - WaterQualityProducer - INFO - Sent batch 93/3820 to partition 0 at offset 92
+2024-11-28 09:33:18,881 - WaterQualityProducer - INFO - Sent batch 94/3820 to partition 0 at offset 93
+2024-11-28 09:33:28,899 - WaterQualityProducer - INFO - Sent batch 95/3820 to partition 0 at offset 94
+2024-11-28 09:33:38,913 - WaterQualityProducer - INFO - Sent batch 96/3820 to partition 0 at offset 95
+2024-11-28 09:33:48,928 - WaterQualityProducer - INFO - Sent batch 97/3820 to partition 0 at offset 96
+2024-11-28 09:33:58,946 - WaterQualityProducer - INFO - Sent batch 98/3820 to partition 0 at offset 97
+2024-11-28 09:34:08,957 - WaterQualityProducer - INFO - Sent batch 99/3820 to partition 0 at offset 98
+2024-11-28 09:34:18,968 - WaterQualityProducer - INFO - Sent batch 100/3820 to partition 0 at offset 99
+2024-11-28 09:34:28,985 - WaterQualityProducer - INFO - Sent batch 101/3820 to partition 0 at offset 100
+2024-11-28 09:34:39,005 - WaterQualityProducer - INFO - Sent batch 102/3820 to partition 0 at offset 101
+2024-11-28 09:34:49,019 - WaterQualityProducer - INFO - Sent batch 103/3820 to partition 0 at offset 102
+2024-11-28 09:34:59,029 - WaterQualityProducer - INFO - Sent batch 104/3820 to partition 0 at offset 103
+2024-11-28 09:35:01,576 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:35:01,576 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:01,628 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:01,628 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:35:01,629 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:01,630 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:01,630 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:01,784 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:01,784 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:35:01,784 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:01,785 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:01,785 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:01,938 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:01,939 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:35:01,940 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:01,940 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:01,940 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:02,094 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:02,094 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:35:02,095 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:02,095 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:02,095 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:02,247 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:02,247 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:35:02,248 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:02,248 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:35:02,248 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:02,400 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:02,401 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:02,401 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:02,401 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:02,503 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:02,504 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:02,504 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:02,504 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:02,710 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:02,710 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:02,711 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:02,711 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:02,915 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:02,915 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:02,915 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:02,915 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:03,172 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:03,172 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:03,173 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:03,173 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:03,432 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:03,433 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:03,433 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:03,433 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:03,945 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:03,946 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:03,946 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:03,946 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:04,456 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:04,457 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:04,457 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:04,457 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:05,327 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:05,328 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:05,328 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:05,328 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:06,196 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:06,196 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:06,196 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:06,197 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:07,319 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:07,320 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:07,320 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:07,320 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata

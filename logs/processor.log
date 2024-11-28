@@ -35,3 +35,88 @@ Sample of methods:
 2024-11-22 12:16:43,341 - WaterQualityProcessor - ERROR - No raw data available for processing
 2024-11-22 12:16:43,341 - WaterQualityProcessor - WARNING - No data was processed.
 2024-11-22 12:16:43,341 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 08:58:07,685 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 08:58:09,927 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 08:58:09,927 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 08:58:09,927 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 08:58:09,927 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-28 08:58:09,927 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2024-11-27 08:58:09.927355 to 2024-11-28 08:58:09.927355
+2024-11-28 08:58:10,004 - WaterQualityProcessor - WARNING - Raw data path exists but contains no data.
+2024-11-28 08:58:10,004 - WaterQualityProcessor - ERROR - No raw data available for processing
+2024-11-28 08:58:10,004 - WaterQualityProcessor - WARNING - No data was processed.
+2024-11-28 08:58:10,005 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 08:58:53,466 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 08:58:55,519 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 08:58:55,519 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 08:58:55,519 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 08:58:55,519 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-28 08:58:55,519 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2024-11-27 08:58:55.519240 to 2024-11-28 08:58:55.519240
+2024-11-28 08:58:55,600 - WaterQualityProcessor - WARNING - Raw data path exists but contains no data.
+2024-11-28 08:58:55,600 - WaterQualityProcessor - ERROR - No raw data available for processing
+2024-11-28 08:58:55,600 - WaterQualityProcessor - WARNING - No data was processed.
+2024-11-28 08:58:55,600 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:00:36,837 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:00:38,867 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 09:00:38,867 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 09:00:38,867 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 09:00:38,867 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-28 09:00:38,867 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2024-08-20 09:00:38.867466 to 2024-11-28 09:00:38.867466
+2024-11-28 09:00:38,941 - WaterQualityProcessor - WARNING - Raw data path exists but contains no data.
+2024-11-28 09:00:38,941 - WaterQualityProcessor - ERROR - No raw data available for processing
+2024-11-28 09:00:38,941 - WaterQualityProcessor - WARNING - No data was processed.
+2024-11-28 09:00:38,941 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:19:57,294 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:19:59,253 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 09:19:59,254 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 09:19:59,254 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 09:19:59,254 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-28 09:19:59,254 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2024-08-20 09:19:59.254113 to 2024-11-28 09:19:59.254113
+2024-11-28 09:19:59,323 - WaterQualityProcessor - WARNING - Raw data path exists but contains no data.
+2024-11-28 09:19:59,324 - WaterQualityProcessor - ERROR - No raw data available for processing
+2024-11-28 09:19:59,324 - WaterQualityProcessor - WARNING - No data was processed.
+2024-11-28 09:19:59,324 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:20:37,523 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:20:39,622 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 09:20:39,622 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 09:20:39,622 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 09:20:39,622 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-28 09:20:39,622 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2024-08-20 09:20:39.622409 to 2024-11-28 09:20:39.622409
+2024-11-28 09:20:39,692 - WaterQualityProcessor - WARNING - Raw data path exists but contains no data.
+2024-11-28 09:20:39,692 - WaterQualityProcessor - ERROR - No raw data available for processing
+2024-11-28 09:20:39,692 - WaterQualityProcessor - WARNING - No data was processed.
+2024-11-28 09:20:39,693 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:22:32,136 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:22:34,278 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 09:22:34,278 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 09:22:34,278 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 09:22:34,278 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-28 09:22:34,278 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2019-06-08 09:22:34.278230 to 2024-11-28 09:22:34.278230
+2024-11-28 09:22:34,359 - WaterQualityProcessor - WARNING - Raw data path exists but contains no data.
+2024-11-28 09:22:34,359 - WaterQualityProcessor - ERROR - No raw data available for processing
+2024-11-28 09:22:34,359 - WaterQualityProcessor - WARNING - No data was processed.
+2024-11-28 09:22:34,359 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:30:15,303 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:30:17,415 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 09:30:17,415 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 09:30:17,415 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 09:30:17,415 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-28 09:30:17,415 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2019-06-08 09:30:17.415708 to 2024-11-28 09:30:17.415708
+2024-11-28 09:30:17,487 - WaterQualityProcessor - WARNING - Raw data path exists but contains no data.
+2024-11-28 09:30:17,487 - WaterQualityProcessor - ERROR - No raw data available for processing
+2024-11-28 09:30:17,488 - WaterQualityProcessor - WARNING - No data was processed.
+2024-11-28 09:30:17,488 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:33:50,301 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:33:52,286 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 09:33:52,286 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 09:33:52,286 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 09:33:52,286 - WaterQualityProcessor - INFO - Available versions: []
+2024-11-28 09:33:52,287 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2019-06-08 09:33:52.286769 to 2024-11-28 09:33:52.286769
+2024-11-28 09:33:52,394 - WaterQualityProcessor - INFO - Found 38200 records in raw data.
+2024-11-28 09:33:52,494 - WaterQualityProcessor - INFO - Read 38200 records from raw data
+2024-11-28 09:33:52,923 - WaterQualityProcessor - INFO - Filtered to 38200 records in time range
+2024-11-28 09:33:53,250 - WaterQualityProcessor - INFO - Enriched data has 2683092 records
+2024-11-28 09:33:54,353 - WaterQualityProcessor - INFO - Successfully wrote reprocessed data to /Users/work/Documents/pf-data-integration/data/processed/metrics/version_daily_20241128
+2024-11-28 09:33:54,353 - WaterQualityProcessor - INFO - 
+Sample of processed metrics:
+2024-11-28 09:33:55,185 - WaterQualityProcessor - INFO - Reprocessing completed. New version available at: /Users/work/Documents/pf-data-integration/data/processed/metrics/version_daily_20241128
+2024-11-28 09:33:55,186 - py4j.clientserver - INFO - Closing down clientserver connection

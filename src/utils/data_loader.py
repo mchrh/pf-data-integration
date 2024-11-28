@@ -111,6 +111,7 @@ def main():
         loader = DataLoader()
         if loader.load_all_static_data():
             loader.verify_data()
+            loader
         else:
             logger.error("Failed to load data")
             sys.exit(1)
