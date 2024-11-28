@@ -120,3 +120,18 @@ Sample of methods:
 Sample of processed metrics:
 2024-11-28 09:33:55,185 - WaterQualityProcessor - INFO - Reprocessing completed. New version available at: /Users/work/Documents/pf-data-integration/data/processed/metrics/version_daily_20241128
 2024-11-28 09:33:55,186 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:37:46,334 - WaterQualityProcessor - INFO - Loading methods from /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:37:48,264 - WaterQualityProcessor - INFO - Loaded methods with 362 records
+2024-11-28 09:37:48,264 - WaterQualityProcessor - INFO - Initialized data reprocessor
+2024-11-28 09:37:48,264 - WaterQualityProcessor - INFO - Listing existing versions:
+2024-11-28 09:37:48,265 - WaterQualityProcessor - INFO - Available versions: ['version_daily_20241128']
+2024-11-28 09:37:48,265 - WaterQualityProcessor - INFO - Starting reprocessing for time range: 2019-06-08 09:37:48.264301 to 2024-11-28 09:37:48.264301
+2024-11-28 09:37:48,370 - WaterQualityProcessor - INFO - Found 38200 records in raw data.
+2024-11-28 09:37:48,465 - WaterQualityProcessor - INFO - Read 38200 records from raw data
+2024-11-28 09:37:48,919 - WaterQualityProcessor - INFO - Filtered to 38200 records in time range
+2024-11-28 09:37:49,241 - WaterQualityProcessor - INFO - Enriched data has 2683092 records
+2024-11-28 09:37:50,413 - WaterQualityProcessor - INFO - Successfully wrote reprocessed data to /Users/work/Documents/pf-data-integration/data/processed/metrics/version_daily_20241128
+2024-11-28 09:37:50,413 - WaterQualityProcessor - INFO - 
+Sample of processed metrics:
+2024-11-28 09:37:51,309 - WaterQualityProcessor - INFO - Reprocessing completed. New version available at: /Users/work/Documents/pf-data-integration/data/processed/metrics/version_daily_20241128
+2024-11-28 09:37:51,309 - py4j.clientserver - INFO - Closing down clientserver connection

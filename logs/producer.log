@@ -301,3 +301,746 @@ ConnectionResetError: [Errno 54] Connection reset by peer
 2024-11-28 09:35:07,320 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
 2024-11-28 09:35:07,320 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
 2024-11-28 09:35:07,320 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:08,443 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:08,444 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:08,444 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:08,444 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:09,331 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:09,331 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:09,331 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:09,331 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:10,216 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:10,217 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:10,217 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:10,217 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:11,068 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:11,068 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:11,068 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:11,068 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:11,917 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:11,918 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:11,918 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:11,918 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:12,749 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:12,749 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:12,749 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:12,749 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:13,571 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:13,571 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:13,571 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:13,571 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:14,520 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:14,520 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:14,520 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:14,520 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:15,468 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:15,468 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:15,469 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:15,469 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:16,615 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:16,615 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:16,615 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:16,615 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:17,760 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:17,761 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:17,761 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:17,761 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:18,712 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:18,712 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:18,712 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:18,712 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:19,035 - WaterQualityProducer - ERROR - Error sending batch 105: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2024-11-28 09:35:19,667 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:19,667 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:19,668 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:19,668 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:20,502 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:20,502 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:20,502 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:20,502 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:21,335 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:21,335 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:21,335 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:21,335 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:22,347 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:22,348 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:22,348 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:22,348 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:23,356 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:23,356 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:23,357 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:23,357 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:24,559 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:24,560 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:24,560 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:24,560 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:25,755 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:25,756 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:25,756 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:25,756 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:26,596 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:26,598 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:26,598 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:26,598 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:27,434 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:27,435 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:27,435 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:27,435 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:28,360 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:28,361 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:28,361 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:28,361 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:29,037 - WaterQualityProducer - ERROR - Error sending batch 106: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2024-11-28 09:35:29,283 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:29,286 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:29,287 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:29,287 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:30,118 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:30,119 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:30,119 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:30,119 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:30,952 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:30,953 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:30,953 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:30,953 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:31,763 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:31,764 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:31,764 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:31,764 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:32,572 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:32,573 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:32,573 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:32,573 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:33,617 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:33,619 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:33,619 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:33,619 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:34,659 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:34,659 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:34,659 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:34,660 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:35,549 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:35,551 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:35,551 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:35,551 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:36,432 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:36,433 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:36,434 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:36,434 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:37,378 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:37,379 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:37,379 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:37,380 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:38,317 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:38,318 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:38,318 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:38,318 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:39,041 - WaterQualityProducer - ERROR - Error sending batch 107: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2024-11-28 09:35:39,045 - kafka.producer.record_accumulator - WARNING - Produced messages to topic-partition TopicPartition(topic='water_quality', partition=0) with base offset -1 log start offset None and error None.
+2024-11-28 09:35:39,046 - kafka.producer.record_accumulator - WARNING - Expired 1 batches in accumulator
+2024-11-28 09:35:39,140 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:39,144 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:39,144 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:39,144 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:39,962 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:39,962 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:39,962 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:39,963 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:40,807 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:40,808 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:40,809 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:40,809 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:41,645 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:41,647 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:41,647 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:41,647 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:42,832 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:42,833 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:42,833 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:42,833 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:44,012 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:44,013 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:44,013 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:44,013 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:44,817 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:44,818 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:44,818 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:44,818 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:45,620 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:45,621 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:45,621 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:45,621 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:46,426 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:46,426 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:46,426 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:46,426 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:47,230 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:47,231 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:47,231 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:47,231 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:48,273 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:48,275 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:48,275 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:48,275 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:49,043 - WaterQualityProducer - ERROR - Error sending batch 108: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2024-11-28 09:35:49,307 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:49,307 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:49,308 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:49,308 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:50,242 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:50,242 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:50,242 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:50,242 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:51,175 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:51,176 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:51,176 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:51,176 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:52,275 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:52,275 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:52,275 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:52,275 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:53,366 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:53,367 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:53,367 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:53,367 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:54,429 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:54,433 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:54,433 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:54,433 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:55,489 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:55,490 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:55,490 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:55,490 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:56,382 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:56,383 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:56,383 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:56,383 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:57,273 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:57,274 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:57,274 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:57,276 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:58,473 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:35:58,474 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:35:58,474 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:58,474 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:35:59,049 - WaterQualityProducer - ERROR - Error sending batch 109: KafkaTimeoutError: Timeout after waiting for 10 secs.
+2024-11-28 09:35:59,056 - kafka.producer.record_accumulator - WARNING - Produced messages to topic-partition TopicPartition(topic='water_quality', partition=0) with base offset -1 log start offset None and error None.
+2024-11-28 09:35:59,056 - kafka.producer.record_accumulator - WARNING - Expired 1 batches in accumulator
+2024-11-28 09:35:59,670 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:35:59,670 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:35:59,670 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:35:59,671 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:00,477 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:00,477 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:36:00,478 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:36:00,478 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:01,285 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:01,286 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:36:01,286 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:36:01,286 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:02,153 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:02,154 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:36:02,154 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:36:02,154 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:02,992 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:02,992 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:36:02,992 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:36:02,992 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,085 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,086 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,086 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,086 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,087 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,136 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:04,136 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:04,138 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2024-11-28 09:36:04,138 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2024-11-28 09:36:04,138 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,138 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (2 attempts left). Error: KafkaConnectionError: socket disconnected
+2024-11-28 09:36:04,240 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,240 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,241 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,241 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,241 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,290 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:04,291 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:04,296 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:36:04,296 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,348 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,349 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,349 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,350 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,350 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,399 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:04,400 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:04,400 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:36:04,401 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,445 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,446 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,446 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:36:04,446 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,494 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:04,495 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:04,495 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2024-11-28 09:36:04,495 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2024-11-28 09:36:04,495 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,547 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,548 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,548 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:36:04,549 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,598 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:04,602 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:04,602 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2024-11-28 09:36:04,602 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2024-11-28 09:36:04,603 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,653 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,654 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,655 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:36:04,655 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,703 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:04,704 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:04,704 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,708 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,709 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,761 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,762 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,764 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:36:04,764 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,811 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:04,815 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:04,815 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2024-11-28 09:36:04,815 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2024-11-28 09:36:04,815 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,861 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,862 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,862 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:36:04,862 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,917 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:04,917 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:04,918 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,918 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,918 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,977 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:04,977 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:04,978 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,978 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:04,978 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:04,978 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (1 attempts left). Error: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,080 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:05,080 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:05,080 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,081 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,081 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,132 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:05,133 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:05,134 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,134 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,134 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,134 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (0 attempts left). Error: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,232 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:05,233 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:05,233 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,233 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,234 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,274 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:05,275 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:05,275 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,275 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,275 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,275 - kafka.producer.record_accumulator - WARNING - Produced messages to topic-partition TopicPartition(topic='water_quality', partition=0) with base offset -1 log start offset None and error None.
+2024-11-28 09:36:05,275 - WaterQualityProducer - ERROR - Error sending batch 110: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,324 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:05,324 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:05,325 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2024-11-28 09:36:05,325 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2024-11-28 09:36:05,326 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,326 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (2 attempts left). Error: KafkaConnectionError: socket disconnected
+2024-11-28 09:36:05,427 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:05,428 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:05,428 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,428 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,428 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,479 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:05,481 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:05,481 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,482 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,482 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,482 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (1 attempts left). Error: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,584 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:05,584 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:05,585 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,587 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,587 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,634 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:05,635 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:05,635 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,635 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,636 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,636 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (0 attempts left). Error: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,738 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:05,738 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:05,739 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,739 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,739 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,788 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:05,789 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:05,792 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,792 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,792 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,792 - kafka.producer.record_accumulator - WARNING - Produced messages to topic-partition TopicPartition(topic='water_quality', partition=0) with base offset -1 log start offset None and error None.
+2024-11-28 09:36:05,792 - WaterQualityProducer - ERROR - Error sending batch 111: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,846 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:05,847 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:05,847 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,847 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:05,847 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,897 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:05,898 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:05,899 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2024-11-28 09:36:05,899 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2024-11-28 09:36:05,899 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:05,899 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (2 attempts left). Error: KafkaConnectionError: socket disconnected
+2024-11-28 09:36:06,000 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:06,001 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:06,001 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,001 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,001 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,051 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:06,052 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:06,052 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,052 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,052 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,052 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (1 attempts left). Error: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,154 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:06,155 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:06,155 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,155 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,155 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,204 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:06,205 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:06,205 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,206 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,206 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,206 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (0 attempts left). Error: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,307 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:06,307 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:06,308 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,308 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,308 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,357 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:06,358 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:06,358 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,358 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,358 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,358 - kafka.producer.record_accumulator - WARNING - Produced messages to topic-partition TopicPartition(topic='water_quality', partition=0) with base offset -1 log start offset None and error None.
+2024-11-28 09:36:06,358 - WaterQualityProducer - ERROR - Error sending batch 112: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,416 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:06,425 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:06,430 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,430 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,431 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,459 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:06,459 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:06,460 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: socket disconnected
+2024-11-28 09:36:06,460 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: socket disconnected
+2024-11-28 09:36:06,460 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,460 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (2 attempts left). Error: KafkaConnectionError: socket disconnected
+2024-11-28 09:36:06,562 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:06,563 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:06,563 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,563 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,563 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,613 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:06,613 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:06,614 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,614 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,614 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,614 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (1 attempts left). Error: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,716 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:06,716 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:06,717 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,717 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,717 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,766 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:36:06,766 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:36:06,767 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,767 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,767 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:36:06,767 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (0 attempts left). Error: KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:36:06,869 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:36:06,870 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:36:06,920 - kafka.producer.record_accumulator - WARNING - Produced messages to topic-partition TopicPartition(topic='water_quality', partition=0) with base offset -1 log start offset -1 and error None.
+2024-11-28 09:36:06,921 - WaterQualityProducer - ERROR - Error sending batch 113: [Error 3] UnknownTopicOrPartitionError
+2024-11-28 09:36:06,927 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (2 attempts left). Error: <class 'kafka.errors.UnknownTopicOrPartitionError'>
+2024-11-28 09:36:07,033 - kafka.producer.sender - WARNING - Got error produce response on topic-partition TopicPartition(topic='water_quality', partition=0), retrying (1 attempts left). Error: <class 'kafka.errors.UnknownTopicOrPartitionError'>
+2024-11-28 09:36:07,206 - WaterQualityProducer - INFO - Sent batch 114/3820 to partition 0 at offset 0
+2024-11-28 09:36:17,214 - WaterQualityProducer - INFO - Sent batch 115/3820 to partition 0 at offset 1
+2024-11-28 09:36:27,230 - WaterQualityProducer - INFO - Sent batch 116/3820 to partition 0 at offset 2
+2024-11-28 09:36:37,251 - WaterQualityProducer - INFO - Sent batch 117/3820 to partition 0 at offset 3
+2024-11-28 09:36:47,262 - WaterQualityProducer - INFO - Sent batch 118/3820 to partition 0 at offset 4
+2024-11-28 09:36:57,278 - WaterQualityProducer - INFO - Sent batch 119/3820 to partition 0 at offset 5
+2024-11-28 09:37:07,287 - WaterQualityProducer - INFO - Sent batch 120/3820 to partition 0 at offset 6
+2024-11-28 09:37:17,303 - WaterQualityProducer - INFO - Sent batch 121/3820 to partition 0 at offset 7
+2024-11-28 09:37:27,320 - WaterQualityProducer - INFO - Sent batch 122/3820 to partition 0 at offset 8
+2024-11-28 09:37:37,335 - WaterQualityProducer - INFO - Sent batch 123/3820 to partition 0 at offset 9
+2024-11-28 09:37:47,350 - WaterQualityProducer - INFO - Sent batch 124/3820 to partition 0 at offset 10
+2024-11-28 09:37:57,368 - WaterQualityProducer - INFO - Sent batch 125/3820 to partition 0 at offset 11
+2024-11-28 09:38:05,598 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2024-11-28 09:38:05,604 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:05,655 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:38:05,656 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:38:05,656 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:38:05,656 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:38:05,656 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:05,809 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:38:05,810 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:38:05,810 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:38:05,811 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:38:05,811 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:05,965 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:38:05,968 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-28 09:38:05,969 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:38:05,969 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:38:05,969 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:06,123 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:38:06,124 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 09:38:06,127 - kafka.conn - ERROR - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 1090, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 54] Connection reset by peer
+2024-11-28 09:38:06,127 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+2024-11-28 09:38:06,128 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:06,281 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:38:06,284 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:38:06,285 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:06,285 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:06,439 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:38:06,442 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:38:06,442 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:06,443 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:06,599 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:38:06,600 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:38:06,600 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:06,600 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:06,805 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:38:06,806 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:38:06,806 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:06,806 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:07,010 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:38:07,010 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:38:07,010 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:07,011 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:07,318 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:38:07,318 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:38:07,318 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:07,318 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:07,533 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:38:07,533 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:38:07,534 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:07,534 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:07,926 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:38:07,927 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:38:07,927 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:07,927 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:08,321 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:38:08,321 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:38:08,321 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:08,321 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:08,838 - WaterQualityProducer - INFO - Streaming interrupted by user
+2024-11-28 09:38:08,838 - kafka.producer.kafka - INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+2024-11-28 09:38:09,215 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 09:38:09,215 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2024-11-28 09:38:09,215 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:09,215 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 09:38:10,101 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-28 09:38:10,101 - kafka.conn - ERROR - Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2024-11-28 09:38:10,101 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2024-11-28 09:38:10,101 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2024-11-28 10:26:44,260 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 10:26:44,260 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2024-11-28 10:26:44,260 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 10:26:44,366 - kafka.conn - ERROR - Error sending request data to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 998, in send_pending_requests
+    total_bytes = self._send_bytes_blocking(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/conn.py", line 601, in _send_bytes_blocking
+    sent_bytes = self._sock.send(data[total_sent:])
+BrokenPipeError: [Errno 32] Broken pipe
+2024-11-28 10:26:44,367 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: [Errno 32] Broken pipe
+2024-11-28 10:26:44,367 - WaterQualityProducer - ERROR - Main execution error: Invalid file object: None
+2024-11-28 10:27:03,361 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 10:27:03,361 - kafka.conn - INFO - Probing node bootstrap-0 broker version
+2024-11-28 10:27:03,362 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 10:27:03,472 - kafka.conn - INFO - Broker version identified as 2.5.0
+2024-11-28 10:27:03,472 - kafka.conn - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-11-28 10:27:03,474 - WaterQualityProducer - INFO - Initialized producer for topic: water_quality
+2024-11-28 10:27:03,474 - WaterQualityProducer - INFO - Loading data from /Users/work/Documents/pf-data-integration/data/raw/LTM Data Aug 1 2022.xlsx
+2024-11-28 10:27:08,907 - WaterQualityProducer - INFO - Successfully loaded 38200 records
+2024-11-28 10:27:09,089 - WaterQualityProducer - INFO - Starting to stream 38200 records in batches of 10
+2024-11-28 10:27:09,141 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-11-28 10:27:09,141 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-11-28 10:27:09,141 - kafka.conn - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-11-28 10:27:09,293 - WaterQualityProducer - INFO - Sent batch 1/3820 to partition 0 at offset 0
+2024-11-28 10:27:19,310 - WaterQualityProducer - INFO - Sent batch 2/3820 to partition 0 at offset 1
+2024-11-28 10:27:29,330 - WaterQualityProducer - INFO - Sent batch 3/3820 to partition 0 at offset 2
+2024-11-28 10:27:39,355 - WaterQualityProducer - INFO - Sent batch 4/3820 to partition 0 at offset 3
+2024-11-28 10:27:49,378 - WaterQualityProducer - INFO - Sent batch 5/3820 to partition 0 at offset 4
+2024-11-28 10:27:59,399 - WaterQualityProducer - INFO - Sent batch 6/3820 to partition 0 at offset 5
+2024-11-28 10:28:09,422 - WaterQualityProducer - INFO - Sent batch 7/3820 to partition 0 at offset 6
+2024-11-28 10:28:19,436 - WaterQualityProducer - INFO - Sent batch 8/3820 to partition 0 at offset 7
+2024-11-28 10:28:29,455 - WaterQualityProducer - INFO - Sent batch 9/3820 to partition 0 at offset 8
+2024-11-28 10:28:39,470 - WaterQualityProducer - INFO - Sent batch 10/3820 to partition 0 at offset 9
+2024-11-28 10:28:49,490 - WaterQualityProducer - INFO - Sent batch 11/3820 to partition 0 at offset 10
+2024-11-28 10:28:59,504 - WaterQualityProducer - INFO - Sent batch 12/3820 to partition 0 at offset 11
+2024-11-28 10:29:09,521 - WaterQualityProducer - INFO - Sent batch 13/3820 to partition 0 at offset 12
+2024-11-28 10:29:19,528 - WaterQualityProducer - INFO - Sent batch 14/3820 to partition 0 at offset 13
+2024-11-28 10:29:29,540 - WaterQualityProducer - INFO - Sent batch 15/3820 to partition 0 at offset 14
+2024-11-28 10:29:39,565 - WaterQualityProducer - INFO - Sent batch 16/3820 to partition 0 at offset 15
+2024-11-28 10:29:49,577 - WaterQualityProducer - INFO - Sent batch 17/3820 to partition 0 at offset 16
+2024-11-28 10:29:59,589 - WaterQualityProducer - INFO - Sent batch 18/3820 to partition 0 at offset 17
+2024-11-28 10:30:09,601 - WaterQualityProducer - INFO - Sent batch 19/3820 to partition 0 at offset 18
+2024-11-28 10:30:19,614 - WaterQualityProducer - INFO - Sent batch 20/3820 to partition 0 at offset 19
+2024-11-28 10:30:29,630 - WaterQualityProducer - INFO - Sent batch 21/3820 to partition 0 at offset 20
+2024-11-28 10:30:39,647 - WaterQualityProducer - INFO - Sent batch 22/3820 to partition 0 at offset 21
+2024-11-28 10:30:49,665 - WaterQualityProducer - INFO - Sent batch 23/3820 to partition 0 at offset 22
+2024-11-28 10:30:59,679 - WaterQualityProducer - INFO - Sent batch 24/3820 to partition 0 at offset 23
+2024-11-28 10:31:09,697 - WaterQualityProducer - INFO - Sent batch 25/3820 to partition 0 at offset 24
+2024-11-28 10:31:19,717 - WaterQualityProducer - INFO - Sent batch 26/3820 to partition 0 at offset 25
+2024-11-28 10:31:29,730 - WaterQualityProducer - INFO - Sent batch 27/3820 to partition 0 at offset 26
+2024-11-28 10:31:39,742 - WaterQualityProducer - INFO - Sent batch 28/3820 to partition 0 at offset 27
+2024-11-28 10:31:49,756 - WaterQualityProducer - INFO - Sent batch 29/3820 to partition 0 at offset 28
+2024-11-28 10:31:59,768 - WaterQualityProducer - INFO - Sent batch 30/3820 to partition 0 at offset 29
+2024-11-28 10:32:09,780 - WaterQualityProducer - INFO - Sent batch 31/3820 to partition 0 at offset 30
+2024-11-28 10:32:19,789 - WaterQualityProducer - INFO - Sent batch 32/3820 to partition 0 at offset 31
+2024-11-28 10:32:29,801 - WaterQualityProducer - INFO - Sent batch 33/3820 to partition 0 at offset 32
+2024-11-28 10:32:39,808 - WaterQualityProducer - INFO - Sent batch 34/3820 to partition 0 at offset 33
+2024-11-28 10:32:49,825 - WaterQualityProducer - INFO - Sent batch 35/3820 to partition 0 at offset 34
+2024-11-28 10:32:59,835 - WaterQualityProducer - INFO - Sent batch 36/3820 to partition 0 at offset 35
+2024-11-28 10:33:06,329 - WaterQualityProducer - INFO - Streaming interrupted by user
+2024-11-28 10:33:06,329 - kafka.producer.kafka - INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+2024-11-28 10:33:06,330 - kafka.conn - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 

@@ -39,7 +39,7 @@ def convert_ltm_to_parquet():
         df = pd.read_excel(excel_path)
         
         df['ingestion_timestamp'] = datetime.now()
-        df['batch_id'] = 1  # Initial batch
+        df['batch_id'] = 1 
         
         df.columns = [col.upper().replace(" ", "_") for col in df.columns]
         

@@ -1,0 +1,116 @@
+2024-11-28 10:27:48,902 - WaterQualityConsumer - INFO - Successfully loaded static data from HDFS
+2024-11-28 10:27:48,902 - WaterQualityConsumer - INFO - Initialized Spark consumer
+2024-11-28 10:27:48,974 - WaterQualityConsumer - ERROR - Error processing stream: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2024-11-28 10:27:48,975 - WaterQualityConsumer - ERROR - Main execution error: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2024-11-28 10:27:48,976 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 10:28:20,829 - WaterQualityConsumer - INFO - Successfully loaded static data from HDFS
+2024-11-28 10:28:20,829 - WaterQualityConsumer - INFO - Initialized Spark consumer
+2024-11-28 10:28:20,896 - WaterQualityConsumer - ERROR - Error processing stream: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2024-11-28 10:28:20,897 - WaterQualityConsumer - ERROR - Main execution error: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2024-11-28 10:28:20,897 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 10:30:03,846 - WaterQualityConsumer - INFO - Successfully loaded static data from HDFS
+2024-11-28 10:30:03,847 - WaterQualityConsumer - INFO - Initialized Spark consumer
+2024-11-28 10:30:04,253 - WaterQualityConsumer - ERROR - Error processing stream: Distinct aggregations are not supported on streaming DataFrames/Datasets. Consider using approx_count_distinct() instead.;
+Aggregate [window#282-T3600000ms, WATERBODY_TYPE#102], [window#282-T3600000ms AS window#212-T3600000ms, WATERBODY_TYPE#102, avg(PH_LAB#103) AS avg_ph#261, stddev(PH_LAB#103) AS std_ph#262, avg(SO4_UEQ_L#104) AS avg_sulfate#264, avg(CA_UEQ_L#105) AS avg_calcium#266, avg(ANC_UEQ_L#106) AS avg_anc#268, count(1) AS sample_count#270L, count(distinct SITE_ID#97) AS unique_sites#271L]
++- Project [named_struct(start, knownnullable(precisetimestampconversion(((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - CASE WHEN (((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) < cast(0 as bigint)) THEN (((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) + 3600000000) ELSE ((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) END) - 0), LongType, TimestampType)), end, knownnullable(precisetimestampconversion((((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - CASE WHEN (((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) < cast(0 as bigint)) THEN (((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) + 3600000000) ELSE ((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) END) - 0) + 3600000000), LongType, TimestampType))) AS window#282-T3600000ms, PROGRAM_ID#98, SITE_ID#97, DATE_SMP#99, SAMPLE_LOCATION#100, SAMPLE_TYPE#101, WATERBODY_TYPE#102, PH_LAB#103, SO4_UEQ_L#104, CA_UEQ_L#105, ANC_UEQ_L#106, ingestion_timestamp#107-T3600000ms, batch_id#108, PROGRAM_ID#1, LATDD#2, LONDD#3, LATDD_CENTROID#4, LONDD_CENTROID#5, SITE_NAME#6, COMID#7, FEATUREID#8L, COUNTY#9, STATE#10, ECOREGION_I#11L, ... 24 more fields]
+   +- Filter isnotnull(ingestion_timestamp#107-T3600000ms)
+      +- EventTimeWatermark ingestion_timestamp#107: timestamp, 1 hours
+         +- Project [PROGRAM_ID#98, SITE_ID#97, DATE_SMP#99, SAMPLE_LOCATION#100, SAMPLE_TYPE#101, WATERBODY_TYPE#102, PH_LAB#103, SO4_UEQ_L#104, CA_UEQ_L#105, ANC_UEQ_L#106, ingestion_timestamp#107, batch_id#108, PROGRAM_ID#1, LATDD#2, LONDD#3, LATDD_CENTROID#4, LONDD_CENTROID#5, SITE_NAME#6, COMID#7, FEATUREID#8L, COUNTY#9, STATE#10, ECOREGION_I#11L, ECOREGION_II#12, ... 23 more fields]
+            +- Join LeftOuter, (PROGRAM_ID#98 = PROGRAM_ID#62)
+               :- Project [SITE_ID#97, PROGRAM_ID#98, DATE_SMP#99, SAMPLE_LOCATION#100, SAMPLE_TYPE#101, WATERBODY_TYPE#102, PH_LAB#103, SO4_UEQ_L#104, CA_UEQ_L#105, ANC_UEQ_L#106, ingestion_timestamp#107, batch_id#108, PROGRAM_ID#1, LATDD#2, LONDD#3, LATDD_CENTROID#4, LONDD_CENTROID#5, SITE_NAME#6, COMID#7, FEATUREID#8L, COUNTY#9, STATE#10, ECOREGION_I#11L, ECOREGION_II#12, ... 18 more fields]
+               :  +- Join LeftOuter, (SITE_ID#97 = SITE_ID#0)
+               :     :- Project [data#95.SITE_ID AS SITE_ID#97, data#95.PROGRAM_ID AS PROGRAM_ID#98, data#95.DATE_SMP AS DATE_SMP#99, data#95.SAMPLE_LOCATION AS SAMPLE_LOCATION#100, data#95.SAMPLE_TYPE AS SAMPLE_TYPE#101, data#95.WATERBODY_TYPE AS WATERBODY_TYPE#102, data#95.PH_LAB AS PH_LAB#103, data#95.SO4_UEQ_L AS SO4_UEQ_L#104, data#95.CA_UEQ_L AS CA_UEQ_L#105, data#95.ANC_UEQ_L AS ANC_UEQ_L#106, data#95.ingestion_timestamp AS ingestion_timestamp#107, data#95.batch_id AS batch_id#108]
+               :     :  +- Project [from_json(StructField(SITE_ID,StringType,true), StructField(PROGRAM_ID,StringType,true), StructField(DATE_SMP,TimestampType,true), StructField(SAMPLE_LOCATION,StringType,true), StructField(SAMPLE_TYPE,StringType,true), StructField(WATERBODY_TYPE,StringType,true), StructField(PH_LAB,DoubleType,true), StructField(SO4_UEQ_L,DoubleType,true), StructField(CA_UEQ_L,DoubleType,true), StructField(ANC_UEQ_L,DoubleType,true), StructField(ingestion_timestamp,TimestampType,true), StructField(batch_id,IntegerType,true), cast(value#82 as string), Some(Europe/Paris)) AS data#95]
+               :     :     +- StreamingRelationV2 org.apache.spark.sql.kafka010.KafkaSourceProvider@12c2f898, kafka, org.apache.spark.sql.kafka010.KafkaSourceProvider$KafkaTable@1a66fa6d, [kafka.bootstrap.servers=localhost:9092, startingOffsets=latest, subscribe=water_quality], [key#81, value#82, topic#83, partition#84, offset#85L, timestamp#86, timestampType#87], StreamingRelation DataSource(org.apache.spark.sql.SparkSession@6099753c,kafka,List(),None,List(),None,Map(kafka.bootstrap.servers -> localhost:9092, subscribe -> water_quality, startingOffsets -> latest),None), kafka, [key#74, value#75, topic#76, partition#77, offset#78L, timestamp#79, timestampType#80]
+               :     +- Relation [SITE_ID#0,PROGRAM_ID#1,LATDD#2,LONDD#3,LATDD_CENTROID#4,LONDD_CENTROID#5,SITE_NAME#6,COMID#7,FEATUREID#8L,COUNTY#9,STATE#10,ECOREGION_I#11L,ECOREGION_II#12,ECOREGION_III#13,ECOREGION_IV#14,ECONAME_I#15,ECONAME_II#16,ECONAME_III#17,ECONAME_IV#18,LAKE_DEPTH_MAX#19,LAKE_DEPTH_MEAN#20,LAKE_RET#21,LAKE_AREA_HA#22,LAKE_AREA_NHD2#23,... 7 more fields] parquet
+               +- Relation [PROGRAM_ID#62,PARAMETER#63,START_YEAR#64L,END_YEAR#65,METHOD#66,METHOD_DESCRIPTION#67] parquet
+
+2024-11-28 10:30:04,255 - WaterQualityConsumer - ERROR - Main execution error: Distinct aggregations are not supported on streaming DataFrames/Datasets. Consider using approx_count_distinct() instead.;
+Aggregate [window#282-T3600000ms, WATERBODY_TYPE#102], [window#282-T3600000ms AS window#212-T3600000ms, WATERBODY_TYPE#102, avg(PH_LAB#103) AS avg_ph#261, stddev(PH_LAB#103) AS std_ph#262, avg(SO4_UEQ_L#104) AS avg_sulfate#264, avg(CA_UEQ_L#105) AS avg_calcium#266, avg(ANC_UEQ_L#106) AS avg_anc#268, count(1) AS sample_count#270L, count(distinct SITE_ID#97) AS unique_sites#271L]
++- Project [named_struct(start, knownnullable(precisetimestampconversion(((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - CASE WHEN (((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) < cast(0 as bigint)) THEN (((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) + 3600000000) ELSE ((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) END) - 0), LongType, TimestampType)), end, knownnullable(precisetimestampconversion((((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - CASE WHEN (((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) < cast(0 as bigint)) THEN (((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) + 3600000000) ELSE ((precisetimestampconversion(ingestion_timestamp#107-T3600000ms, TimestampType, LongType) - 0) % 3600000000) END) - 0) + 3600000000), LongType, TimestampType))) AS window#282-T3600000ms, PROGRAM_ID#98, SITE_ID#97, DATE_SMP#99, SAMPLE_LOCATION#100, SAMPLE_TYPE#101, WATERBODY_TYPE#102, PH_LAB#103, SO4_UEQ_L#104, CA_UEQ_L#105, ANC_UEQ_L#106, ingestion_timestamp#107-T3600000ms, batch_id#108, PROGRAM_ID#1, LATDD#2, LONDD#3, LATDD_CENTROID#4, LONDD_CENTROID#5, SITE_NAME#6, COMID#7, FEATUREID#8L, COUNTY#9, STATE#10, ECOREGION_I#11L, ... 24 more fields]
+   +- Filter isnotnull(ingestion_timestamp#107-T3600000ms)
+      +- EventTimeWatermark ingestion_timestamp#107: timestamp, 1 hours
+         +- Project [PROGRAM_ID#98, SITE_ID#97, DATE_SMP#99, SAMPLE_LOCATION#100, SAMPLE_TYPE#101, WATERBODY_TYPE#102, PH_LAB#103, SO4_UEQ_L#104, CA_UEQ_L#105, ANC_UEQ_L#106, ingestion_timestamp#107, batch_id#108, PROGRAM_ID#1, LATDD#2, LONDD#3, LATDD_CENTROID#4, LONDD_CENTROID#5, SITE_NAME#6, COMID#7, FEATUREID#8L, COUNTY#9, STATE#10, ECOREGION_I#11L, ECOREGION_II#12, ... 23 more fields]
+            +- Join LeftOuter, (PROGRAM_ID#98 = PROGRAM_ID#62)
+               :- Project [SITE_ID#97, PROGRAM_ID#98, DATE_SMP#99, SAMPLE_LOCATION#100, SAMPLE_TYPE#101, WATERBODY_TYPE#102, PH_LAB#103, SO4_UEQ_L#104, CA_UEQ_L#105, ANC_UEQ_L#106, ingestion_timestamp#107, batch_id#108, PROGRAM_ID#1, LATDD#2, LONDD#3, LATDD_CENTROID#4, LONDD_CENTROID#5, SITE_NAME#6, COMID#7, FEATUREID#8L, COUNTY#9, STATE#10, ECOREGION_I#11L, ECOREGION_II#12, ... 18 more fields]
+               :  +- Join LeftOuter, (SITE_ID#97 = SITE_ID#0)
+               :     :- Project [data#95.SITE_ID AS SITE_ID#97, data#95.PROGRAM_ID AS PROGRAM_ID#98, data#95.DATE_SMP AS DATE_SMP#99, data#95.SAMPLE_LOCATION AS SAMPLE_LOCATION#100, data#95.SAMPLE_TYPE AS SAMPLE_TYPE#101, data#95.WATERBODY_TYPE AS WATERBODY_TYPE#102, data#95.PH_LAB AS PH_LAB#103, data#95.SO4_UEQ_L AS SO4_UEQ_L#104, data#95.CA_UEQ_L AS CA_UEQ_L#105, data#95.ANC_UEQ_L AS ANC_UEQ_L#106, data#95.ingestion_timestamp AS ingestion_timestamp#107, data#95.batch_id AS batch_id#108]
+               :     :  +- Project [from_json(StructField(SITE_ID,StringType,true), StructField(PROGRAM_ID,StringType,true), StructField(DATE_SMP,TimestampType,true), StructField(SAMPLE_LOCATION,StringType,true), StructField(SAMPLE_TYPE,StringType,true), StructField(WATERBODY_TYPE,StringType,true), StructField(PH_LAB,DoubleType,true), StructField(SO4_UEQ_L,DoubleType,true), StructField(CA_UEQ_L,DoubleType,true), StructField(ANC_UEQ_L,DoubleType,true), StructField(ingestion_timestamp,TimestampType,true), StructField(batch_id,IntegerType,true), cast(value#82 as string), Some(Europe/Paris)) AS data#95]
+               :     :     +- StreamingRelationV2 org.apache.spark.sql.kafka010.KafkaSourceProvider@12c2f898, kafka, org.apache.spark.sql.kafka010.KafkaSourceProvider$KafkaTable@1a66fa6d, [kafka.bootstrap.servers=localhost:9092, startingOffsets=latest, subscribe=water_quality], [key#81, value#82, topic#83, partition#84, offset#85L, timestamp#86, timestampType#87], StreamingRelation DataSource(org.apache.spark.sql.SparkSession@6099753c,kafka,List(),None,List(),None,Map(kafka.bootstrap.servers -> localhost:9092, subscribe -> water_quality, startingOffsets -> latest),None), kafka, [key#74, value#75, topic#76, partition#77, offset#78L, timestamp#79, timestampType#80]
+               :     +- Relation [SITE_ID#0,PROGRAM_ID#1,LATDD#2,LONDD#3,LATDD_CENTROID#4,LONDD_CENTROID#5,SITE_NAME#6,COMID#7,FEATUREID#8L,COUNTY#9,STATE#10,ECOREGION_I#11L,ECOREGION_II#12,ECOREGION_III#13,ECOREGION_IV#14,ECONAME_I#15,ECONAME_II#16,ECONAME_III#17,ECONAME_IV#18,LAKE_DEPTH_MAX#19,LAKE_DEPTH_MEAN#20,LAKE_RET#21,LAKE_AREA_HA#22,LAKE_AREA_NHD2#23,... 7 more fields] parquet
+               +- Relation [PROGRAM_ID#62,PARAMETER#63,START_YEAR#64L,END_YEAR#65,METHOD#66,METHOD_DESCRIPTION#67] parquet
+
+2024-11-28 10:30:04,256 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 10:31:50,772 - WaterQualityConsumer - ERROR - Main execution error: 'WaterQualityConsumer' object has no attribute '_load_static_data'
+2024-11-28 10:31:50,773 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 10:32:29,672 - WaterQualityConsumer - INFO - Successfully loaded static data from HDFS
+2024-11-28 10:32:29,672 - WaterQualityConsumer - INFO - Initialized Spark consumer
+2024-11-28 10:32:30,207 - WaterQualityConsumer - INFO - Started streaming queries
+2024-11-28 10:32:58,518 - py4j.clientserver - INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=4>
+2024-11-28 10:32:58,520 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 10:32:58,520 - root - ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=4>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2024-11-28 10:32:58,521 - py4j.clientserver - INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/work/miniforge3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/pyspark/context.py", line 381, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/pyspark/context.py", line 2446, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o22.sc
+2024-11-28 10:32:58,522 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 10:32:58,522 - root - ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/work/miniforge3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/pyspark/context.py", line 381, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/pyspark/context.py", line 2446, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o22.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/work/miniforge3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2024-11-28 10:32:58,522 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 10:32:58,523 - WaterQualityConsumer - ERROR - Error processing stream: An error occurred while calling o113.awaitAnyTermination
+2024-11-28 10:32:58,523 - WaterQualityConsumer - ERROR - Main execution error: An error occurred while calling o113.awaitAnyTermination
+2024-11-28 10:32:58,523 - py4j.clientserver - INFO - Closing down clientserver connection

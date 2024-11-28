@@ -684,3 +684,43 @@ Sample of Methods data:
 2024-11-28 09:28:43,194 - DataLoader - INFO - 
 Sample of Site Information data:
 2024-11-28 09:28:43,314 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:37:34,350 - DataLoader - INFO - Initialized Spark session
+2024-11-28 09:37:34,350 - DataLoader - INFO - Reading Excel file: /Users/work/Documents/pf-data-integration/data/raw/Methods.xlsx
+2024-11-28 09:37:34,438 - DataLoader - INFO - Inferred schema: StructType([StructField('PROGRAM_ID', StringType(), True), StructField('PARAMETER', StringType(), True), StructField('START_YEAR', LongType(), True), StructField('END_YEAR', DoubleType(), True), StructField('METHOD', StringType(), True), StructField('METHOD_DESCRIPTION', StringType(), True)])
+2024-11-28 09:37:35,312 - DataLoader - INFO - Writing Parquet file to: /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:37:37,127 - DataLoader - INFO - Successfully wrote 362 records to /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 09:37:37,127 - DataLoader - INFO - Reading Excel file: /Users/work/Documents/pf-data-integration/data/raw/Site Information.xlsx
+2024-11-28 09:37:37,178 - DataLoader - INFO - Inferred schema: StructType([StructField('SITE_ID', StringType(), True), StructField('PROGRAM_ID', StringType(), True), StructField('LATDD', DoubleType(), True), StructField('LONDD', DoubleType(), True), StructField('LATDD_CENTROID', DoubleType(), True), StructField('LONDD_CENTROID', DoubleType(), True), StructField('SITE_NAME', StringType(), True), StructField('COMID', DoubleType(), True), StructField('FEATUREID', LongType(), True), StructField('COUNTY', StringType(), True), StructField('STATE', StringType(), True), StructField('ECOREGION_I', LongType(), True), StructField('ECOREGION_II', DoubleType(), True), StructField('ECOREGION_III', StringType(), True), StructField('ECOREGION_IV', StringType(), True), StructField('ECONAME_I', StringType(), True), StructField('ECONAME_II', StringType(), True), StructField('ECONAME_III', StringType(), True), StructField('ECONAME_IV', StringType(), True), StructField('LAKE_DEPTH_MAX', DoubleType(), True), StructField('LAKE_DEPTH_MEAN', DoubleType(), True), StructField('LAKE_RET', DoubleType(), True), StructField('LAKE_AREA_HA', DoubleType(), True), StructField('LAKE_AREA_NHD2', DoubleType(), True), StructField('WSHD_AREA_HA', DoubleType(), True), StructField('SITE_ELEV', DoubleType(), True), StructField('WSHD_ELEV_AVG', DoubleType(), True), StructField('WSHD_ELEV_MIN', DoubleType(), True), StructField('WSHD_ELEV_MAX', DoubleType(), True), StructField('WSHD_SLOPE_AVG', DoubleType(), True), StructField('UPDATE_DATE', TimestampType(), True)])
+2024-11-28 09:37:37,237 - DataLoader - INFO - Writing Parquet file to: /Users/work/Documents/pf-data-integration/data/processed/site_information
+2024-11-28 09:37:37,536 - DataLoader - INFO - Successfully wrote 175 records to /Users/work/Documents/pf-data-integration/data/processed/site_information
+2024-11-28 09:37:37,536 - DataLoader - INFO - Successfully loaded all static data
+2024-11-28 09:37:37,682 - DataLoader - INFO - === Data Verification ===
+2024-11-28 09:37:37,829 - DataLoader - INFO - Methods data count: 362
+2024-11-28 09:37:37,830 - DataLoader - INFO - Methods columns: PROGRAM_ID, PARAMETER, START_YEAR, END_YEAR, METHOD, METHOD_DESCRIPTION
+2024-11-28 09:37:37,889 - DataLoader - INFO - Site Information data count: 175
+2024-11-28 09:37:37,890 - DataLoader - INFO - Site Information columns: SITE_ID, PROGRAM_ID, LATDD, LONDD, LATDD_CENTROID, LONDD_CENTROID, SITE_NAME, COMID, FEATUREID, COUNTY, STATE, ECOREGION_I, ECOREGION_II, ECOREGION_III, ECOREGION_IV, ECONAME_I, ECONAME_II, ECONAME_III, ECONAME_IV, LAKE_DEPTH_MAX, LAKE_DEPTH_MEAN, LAKE_RET, LAKE_AREA_HA, LAKE_AREA_NHD2, WSHD_AREA_HA, SITE_ELEV, WSHD_ELEV_AVG, WSHD_ELEV_MIN, WSHD_ELEV_MAX, WSHD_SLOPE_AVG, UPDATE_DATE
+2024-11-28 09:37:37,891 - DataLoader - INFO - 
+Sample of Methods data:
+2024-11-28 09:37:38,408 - DataLoader - INFO - 
+Sample of Site Information data:
+2024-11-28 09:37:38,540 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 10:27:24,978 - DataLoader - INFO - Initialized Spark session
+2024-11-28 10:27:24,979 - DataLoader - INFO - Reading Excel file: /Users/work/Documents/pf-data-integration/data/raw/Methods.xlsx
+2024-11-28 10:27:25,095 - DataLoader - INFO - Inferred schema: StructType([StructField('PROGRAM_ID', StringType(), True), StructField('PARAMETER', StringType(), True), StructField('START_YEAR', LongType(), True), StructField('END_YEAR', DoubleType(), True), StructField('METHOD', StringType(), True), StructField('METHOD_DESCRIPTION', StringType(), True)])
+2024-11-28 10:27:26,046 - DataLoader - INFO - Writing Parquet file to: /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 10:27:28,001 - DataLoader - INFO - Successfully wrote 362 records to /Users/work/Documents/pf-data-integration/data/processed/methods
+2024-11-28 10:27:28,001 - DataLoader - INFO - Reading Excel file: /Users/work/Documents/pf-data-integration/data/raw/Site Information.xlsx
+2024-11-28 10:27:28,054 - DataLoader - INFO - Inferred schema: StructType([StructField('SITE_ID', StringType(), True), StructField('PROGRAM_ID', StringType(), True), StructField('LATDD', DoubleType(), True), StructField('LONDD', DoubleType(), True), StructField('LATDD_CENTROID', DoubleType(), True), StructField('LONDD_CENTROID', DoubleType(), True), StructField('SITE_NAME', StringType(), True), StructField('COMID', DoubleType(), True), StructField('FEATUREID', LongType(), True), StructField('COUNTY', StringType(), True), StructField('STATE', StringType(), True), StructField('ECOREGION_I', LongType(), True), StructField('ECOREGION_II', DoubleType(), True), StructField('ECOREGION_III', StringType(), True), StructField('ECOREGION_IV', StringType(), True), StructField('ECONAME_I', StringType(), True), StructField('ECONAME_II', StringType(), True), StructField('ECONAME_III', StringType(), True), StructField('ECONAME_IV', StringType(), True), StructField('LAKE_DEPTH_MAX', DoubleType(), True), StructField('LAKE_DEPTH_MEAN', DoubleType(), True), StructField('LAKE_RET', DoubleType(), True), StructField('LAKE_AREA_HA', DoubleType(), True), StructField('LAKE_AREA_NHD2', DoubleType(), True), StructField('WSHD_AREA_HA', DoubleType(), True), StructField('SITE_ELEV', DoubleType(), True), StructField('WSHD_ELEV_AVG', DoubleType(), True), StructField('WSHD_ELEV_MIN', DoubleType(), True), StructField('WSHD_ELEV_MAX', DoubleType(), True), StructField('WSHD_SLOPE_AVG', DoubleType(), True), StructField('UPDATE_DATE', TimestampType(), True)])
+2024-11-28 10:27:28,111 - DataLoader - INFO - Writing Parquet file to: /Users/work/Documents/pf-data-integration/data/processed/site_information
+2024-11-28 10:27:28,402 - DataLoader - INFO - Successfully wrote 175 records to /Users/work/Documents/pf-data-integration/data/processed/site_information
+2024-11-28 10:27:28,402 - DataLoader - INFO - Successfully loaded all static data
+2024-11-28 10:27:28,589 - DataLoader - INFO - === Data Verification ===
+2024-11-28 10:27:28,744 - DataLoader - INFO - Methods data count: 362
+2024-11-28 10:27:28,745 - DataLoader - INFO - Methods columns: PROGRAM_ID, PARAMETER, START_YEAR, END_YEAR, METHOD, METHOD_DESCRIPTION
+2024-11-28 10:27:28,808 - DataLoader - INFO - Site Information data count: 175
+2024-11-28 10:27:28,809 - DataLoader - INFO - Site Information columns: SITE_ID, PROGRAM_ID, LATDD, LONDD, LATDD_CENTROID, LONDD_CENTROID, SITE_NAME, COMID, FEATUREID, COUNTY, STATE, ECOREGION_I, ECOREGION_II, ECOREGION_III, ECOREGION_IV, ECONAME_I, ECONAME_II, ECONAME_III, ECONAME_IV, LAKE_DEPTH_MAX, LAKE_DEPTH_MEAN, LAKE_RET, LAKE_AREA_HA, LAKE_AREA_NHD2, WSHD_AREA_HA, SITE_ELEV, WSHD_ELEV_AVG, WSHD_ELEV_MIN, WSHD_ELEV_MAX, WSHD_SLOPE_AVG, UPDATE_DATE
+2024-11-28 10:27:28,809 - DataLoader - INFO - 
+Sample of Methods data:
+2024-11-28 10:27:29,394 - DataLoader - INFO - 
+Sample of Site Information data:
+2024-11-28 10:27:29,531 - py4j.clientserver - INFO - Closing down clientserver connection

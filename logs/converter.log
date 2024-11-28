@@ -6,3 +6,11 @@ Sample of converted data:
 2024-11-28 09:33:42,802 - DataConverter - INFO - 
 Parquet Schema:
 2024-11-28 09:33:43,744 - py4j.clientserver - INFO - Closing down clientserver connection
+2024-11-28 09:37:11,292 - DataConverter - INFO - Reading Excel file: /Users/work/Documents/pf-data-integration/data/raw/LTM Data Aug 1 2022.xlsx
+2024-11-28 09:37:21,765 - DataConverter - INFO - Writing to Parquet: /Users/work/Documents/pf-data-integration/data/processed/raw_data
+2024-11-28 09:37:24,508 - DataConverter - INFO - Successfully converted 38200 records to Parquet
+2024-11-28 09:37:24,508 - DataConverter - INFO - 
+Sample of converted data:
+2024-11-28 09:37:25,148 - DataConverter - INFO - 
+Parquet Schema:
+2024-11-28 09:37:26,027 - py4j.clientserver - INFO - Closing down clientserver connection

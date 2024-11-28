@@ -25,13 +25,16 @@ class WaterQualityConsumer:
         self.schema = self._create_schema()
         self._load_static_data()
         logger.info("Initialized Spark consumer")
-
+    
     def _create_spark_session(self):
+        """Create Spark session with Kafka package"""
         return SparkSession.builder \
             .appName("WaterQualityMonitoring") \
             .config("spark.sql.streaming.checkpointLocation", CHECKPOINT_LOCATION) \
+            .config("spark.jars.packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0") \
             .config("spark.streaming.stopGracefullyOnShutdown", "true") \
             .getOrCreate()
+
 
     def _create_schema(self):
         """Create schema for LTM data"""
@@ -73,7 +76,7 @@ class WaterQualityConsumer:
                 avg("CA_UEQ_L").alias("avg_calcium"),
                 avg("ANC_UEQ_L").alias("avg_anc"),
                 count("*").alias("sample_count"),
-                countDistinct("SITE_ID").alias("unique_sites")
+                approx_count_distinct("SITE_ID").alias("approx_unique_sites")
             )
 
     def process_stream(self):
